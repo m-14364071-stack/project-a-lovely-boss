@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="?l4w{P`(G[rS-XTOg)`2" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id=".$!%PI;hz|MNAe7A(]S8"><field name="LEDS">`
+        # # # # . 
+        # . . # . 
+        # # # # . 
+        # . . # . 
+        # # # # .
+        `</field><next><block type="device_while" id="Q.rk!i/2fzM#I@E2_b4t"><value name="COND"><shadow type="logic_boolean" id="pZXf_};*qU*bl:QzG*DR"><field name="BOOL">TRUE</field></shadow></value><statement name="DO"><block type="device_unplot" id="dr`jyxA;/cVMi.gtZC9%"><value name="x"><shadow type="math_number_minmax" id="n}7.)w/+J#^q_K8Y~YrW"><mutation min="0" max="4" label="X" precision="1"></mutation><field name="SLIDER">1</field></shadow></value><value name="y"><shadow type="math_number_minmax" id="tM4zXS-t0@p2zp_EmN*="><mutation min="0" max="4" label="Y" precision="1"></mutation><field name="SLIDER">4</field></shadow></value></block></statement><next><block type="device_change_tempo" id="y.O;1f1wAAOaVSbI9hr="><value name="value"><shadow type="math_number" id="d|SI_Ry,fGU9:l[E`./f"><field name="NUM">24</field></shadow></value><next><block type="synth_set_volume" id="fv?`STndE{`gxJQZwQkx"><value name="volume"><shadow type="math_number_minmax" id="a%C$bF9@fy}eZ)6ht$0="><mutation min="0" max="255" label="Volume" precision="0"></mutation><field name="SLIDER">127</field></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
